@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();
-var arg = process.argv[2];
+var arg = process.argv[2] || "4 mars 1994";
 var moment = require("moment");
 var time = require("./timestamp.js");
 
